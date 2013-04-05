@@ -1,0 +1,576 @@
+<?xml version="1.0" ?>
+<library name="sap.m">
+  <module name="sap.m.App" size="8525" compressedSize="1487">
+    <description>Provides control sap.m.App.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.m.NavContainer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.AppRenderer" size="401" compressedSize="344">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.ui.core.Renderer"/>
+      <module name="sap.m.NavContainerRenderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Bar" size="15955" compressedSize="2558">
+    <description>Provides control sap.m.Bar.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.BarRenderer" size="2539" compressedSize="1481">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.BusyDialog" size="19080" compressedSize="5008">
+    <description>Provides control sap.m.BusyDialog.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.Popup"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.BusyDialogRenderer" size="2494" compressedSize="1574">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.BusyIndicator" size="12362" compressedSize="1842">
+    <description>Provides control sap.m.BusyIndicator.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.BusyIndicatorRenderer" size="2330" compressedSize="1331">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Button" size="13431" compressedSize="2096">
+    <description>Provides control sap.m.Button.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.EnabledPropagator"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.ButtonRenderer" size="5189" compressedSize="2508">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Carousel" size="47833" compressedSize="12143">
+    <description>Provides control sap.m.Carousel.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.thirdparty.swipe-view"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.CarouselRenderer" size="2848" compressedSize="1228">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.CheckBox" size="13992" compressedSize="2632">
+    <description>Provides control sap.m.CheckBox.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.CheckBoxRenderer" size="1867" compressedSize="961">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.CustomListItem" size="6327" compressedSize="456">
+    <description>Provides control sap.m.CustomListItem.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.m.ListItemBase"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.CustomListItemRenderer" size="1116" compressedSize="572">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.ui.core.Renderer"/>
+      <module name="sap.m.ListItemBaseRenderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Dialog" size="30619" compressedSize="7918">
+    <description>Provides control sap.m.Dialog.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.Popup"/>
+      <module name="sap.m.Bar"/>
+      <module name="sap.ui.core.delegate.ScrollEnablement"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.DialogRenderer" size="2199" compressedSize="1292">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.BarRenderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.DisplayListItem" size="4454" compressedSize="441">
+    <description>Provides control sap.m.DisplayListItem.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.m.ListItemBase"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.DisplayListItemRenderer" size="1385" compressedSize="772">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.ui.core.Renderer"/>
+      <module name="sap.m.ListItemBaseRenderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.FlexBox" size="13195" compressedSize="2508">
+    <description>Provides control sap.m.FlexBox.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.EnabledPropagator"/>
+      <module name="sap.m.FlexBoxStylingHelper"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.FlexBoxCssPropertyMap" size="1663" compressedSize="1246">
+    <requires>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.FlexBoxRenderer" size="3772" compressedSize="2081">
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.FlexBoxStylingHelper"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.FlexBoxStylingHelper" size="8791" compressedSize="2537">
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.FlexBoxCssPropertyMap"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.FlexItemData" size="7356" compressedSize="1251">
+    <description>Provides control sap.m.FlexItemData.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.LayoutData"/>
+      <module name="sap.ui.core.EnabledPropagator"/>
+      <module name="sap.m.FlexBoxStylingHelper"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.HBox" size="2888" compressedSize="286">
+    <description>Provides control sap.m.HBox.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.m.FlexBox"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.HBoxRenderer" size="723" compressedSize="313">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.FlexBoxRenderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Image" size="21447" compressedSize="4192">
+    <description>Provides control sap.m.Image.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.ImageRenderer" size="2342" compressedSize="975">
+    <description>Provides default renderer for control sap.m.Image</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Input" size="19166" compressedSize="3354">
+    <description>Provides control sap.m.Input.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.EnabledPropagator"/>
+      <module name="sap.ui.core.format.DateFormat"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.InputListItem" size="7036" compressedSize="522">
+    <description>Provides control sap.m.InputListItem.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.m.ListItemBase"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.InputListItemRenderer" size="1413" compressedSize="775">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.ui.core.Renderer"/>
+      <module name="sap.m.ListItemBaseRenderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.InputRenderer" size="3366" compressedSize="2000">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Label" size="8711" compressedSize="887">
+    <description>Provides control sap.m.Label.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.LabelRenderer" size="2201" compressedSize="1004">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.ui.core.Renderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.List" size="23338" compressedSize="4347">
+    <description>Provides control sap.m.List.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.ListItemBase" size="20959" compressedSize="8046">
+    <description>Provides control sap.m.ListItemBase.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.ListItemBaseRenderer" size="4157" compressedSize="2606">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.ListRenderer" size="3002" compressedSize="1591">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.NavContainer" size="69199" compressedSize="15576">
+    <description>Provides control sap.m.NavContainer.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.NavContainerRenderer" size="1109" compressedSize="515">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Page" size="25216" compressedSize="6876">
+    <description>Provides control sap.m.Page.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.PageRenderer" size="2023" compressedSize="987">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Popover" size="47186" compressedSize="12816">
+    <description>Provides control sap.m.Popover.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.Popup"/>
+      <module name="sap.m.Bar"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.PopoverRenderer" size="2224" compressedSize="1226">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.RadioButton" size="16299" compressedSize="3331">
+    <description>Provides control sap.m.RadioButton.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.RadioButtonRenderer" size="2694" compressedSize="1287">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.ScrollContainer" size="13718" compressedSize="1851">
+    <description>Provides control sap.m.ScrollContainer.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.ScrollContainerRenderer" size="1561" compressedSize="813">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.SearchField" size="12916" compressedSize="2094">
+    <description>Provides control sap.m.SearchField.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.EnabledPropagator"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.SearchFieldRenderer" size="2469" compressedSize="1368">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.SegmentedButton" size="17944" compressedSize="3990">
+    <description>Provides control sap.m.SegmentedButton.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.SegmentedButtonRenderer" size="2112" compressedSize="1190">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Select" size="19566" compressedSize="3714">
+    <description>Provides control sap.m.Select.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.SelectRenderer" size="2295" compressedSize="1262">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Slider" size="24978" compressedSize="4821">
+    <description>Provides control sap.m.Slider.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.EnabledPropagator"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.SliderRenderer" size="2015" compressedSize="1142">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.StandardListItem" size="8984" compressedSize="1483">
+    <description>Provides control sap.m.StandardListItem.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.m.ListItemBase"/>
+      <module name="sap.ui.core.EnabledPropagator"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.StandardListItemRenderer" size="2027" compressedSize="1204">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.ui.core.Renderer"/>
+      <module name="sap.m.ListItemBaseRenderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Switch" size="20893" compressedSize="5806">
+    <description>Provides control sap.m.Switch.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.SwitchRenderer" size="1776" compressedSize="1055">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.Text" size="8458" compressedSize="1042">
+    <description>Provides control sap.m.Text.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.ui.core.Control"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.TextRenderer" size="1878" compressedSize="872">
+    <description>Provides default renderer for control sap.m.Text</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.ui.core.Renderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.VBox" size="2886" compressedSize="286">
+    <description>Provides control sap.m.VBox.</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.library"/>
+      <module name="sap.m.FlexBox"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.VBoxRenderer" size="723" compressedSize="313">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.m.FlexBoxRenderer"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>  <module name="sap.m.library" size="25067" compressedSize="3907">
+    <description>Initialization Code and shared classes of library sap.m (1.8.4)</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+      <module name="sap.ui.core.Core"/>
+      <module name="sap.ui.core.library"/>
+      <module name="jquery.sap.mobile"/>
+    </requires>
+    <includes>
+      <module name="sap.m.ButtonType"/>
+      <module name="sap.m.FlexAlignContent"/>
+      <module name="sap.m.FlexAlignItems"/>
+      <module name="sap.m.FlexAlignSelf"/>
+      <module name="sap.m.FlexDirection"/>
+      <module name="sap.m.FlexJustifyContent"/>
+      <module name="sap.m.FlexRendertype"/>
+      <module name="sap.m.FlexWrap"/>
+      <module name="sap.m.InputType"/>
+      <module name="sap.m.LabelDesign"/>
+      <module name="sap.m.ListMode"/>
+      <module name="sap.m.ListType"/>
+      <module name="sap.m.PageBackgroundDesign"/>
+      <module name="sap.m.PlacementType"/>
+    </includes>
+  </module></library>

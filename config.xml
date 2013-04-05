@@ -1,0 +1,30 @@
+<?xml version   ="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.intel.sample"
+    versioncode = "1"
+    version     = "1.0.0">
+    
+    <name>SAPUI5 and Phonegap</name>
+    
+    <content src="index.html"/>
+    
+    <description>
+        Test application with SAPUI5 and Phonegap
+    </description>
+    
+    <preference name="phonegap-version" value="2.0.0" />
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>     
+    <feature name="http://api.phonegap.com/1.0/geolocation"/> 
+
+	<!-- for iPhone -->
+	<plugin name="Camera" value="CDVCamera" />
+	<plugin name="Geolocation" value="CDVLocation" />
+	
+    <!-- for Android -->
+    <plugin name="Camera" value="org.apache.cordova.CameraLauncher"/>
+    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    <preference name="orientation" value="portrait" />
+    <preference name="android-minSdkVersion" value="9" />
+</widget>

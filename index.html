@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+       <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<script src="phonegap.js"></script>
+    	<script type="text/javascript" charset="utf-8">
+
+		    var pictureSource;   // picture source
+		    var destinationType; // sets the format of returned value 
+		
+		    // Wait for Cordova to connect with the device
+		    //
+		    document.addEventListener("deviceready",onDeviceReady,false);
+		
+		    // Cordova is ready to be used!
+		    //
+		    function onDeviceReady() {
+		        pictureSource=navigator.camera.PictureSourceType;
+		        destinationType=navigator.camera.DestinationType;
+		        navigator.geolocation.getCurrentPosition(onSuccess, onError, {enableHighAccuracy:true});
+		    }
+		
+		    // Called when a photo is successfully retrieved
+		    //
+		    function onPhotoDataSuccess(imageData) {
+		      // Uncomment to view the base64 encoded image data
+		      // console.log(imageData);
+		
+		      // Get image handle
+		      //
+		      var smallImage = document.getElementById('smallImage');
+		
+		      // Unhide image elements
+		      //
+		      smallImage.style.display = 'block';
+		
+		      // Show the captured photo
+		      // The inline CSS rules are used to resize the image
+		      //
+		      smallImage.src = "data:image/jpeg;base64," + imageData;
+		    }
+		
+		    // Called when a photo is successfully retrieved
+		    //
+		    function onPhotoURISuccess(imageURI) {
+		      // Uncomment to view the image file URI 
+		      // console.log(imageURI);
+		
+		      // Get image handle
+		      //
+		      var largeImage = document.getElementById('largeImage');
+		
+		      // Unhide image elements
+		      //
+		      largeImage.style.display = 'block';
+		
+		      // Show the captured photo
+		      // The inline CSS rules are used to resize the image
+		      //
+		      largeImage.src = imageURI;
+		    }
+		
+		    // A button will call this function
+		    //
+		    function capturePhoto() {
+		      // Take picture using device camera and retrieve image as base64-encoded string
+		        navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50,
+		        destinationType: destinationType.DATA_URL });
+		    }
+		
+		    // A button will call this function
+		    //
+		    function capturePhotoEdit() {
+		      // Take picture using device camera, allow edit, and retrieve image as base64-encoded string  
+		      navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20, allowEdit: true,
+		        destinationType: destinationType.DATA_URL });
+		    }
+		
+		    // A button will call this function
+		    //
+		    function getPhoto(source) {
+		      // Retrieve image file location from specified source
+		      navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50, 
+		        destinationType: destinationType.FILE_URI,
+		        sourceType: source });
+		    }
+		
+		    // Called if something bad happens.
+		    // 
+		    function onFail(message) {
+		      alert('Failed because: ' + message);
+		    }
+		    
+		 // onSuccess Geolocation
+		    //
+		    function onSuccess(position) {
+		        var element = document.getElementById('geolocation');
+		        element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
+		                            'Longitude: '          + position.coords.longitude             + '<br />' +
+		                            'Altitude: '           + position.coords.altitude              + '<br />' +
+		                            'Accuracy: '           + position.coords.accuracy              + '<br />' +
+		                            'Altitude Accuracy: '  + position.coords.altitudeAccuracy      + '<br />' +
+		                            'Heading: '            + position.coords.heading               + '<br />' +
+		                            'Speed: '              + position.coords.speed                 + '<br />' +
+		                            'Timestamp: '          +                                   position.timestamp          + '<br />';
+		    }
+		
+		    // onError Callback receives a PositionError object
+		    //
+		    function onError(error) {
+		        alert('code: '    + error.code    + '\n' +
+		                'message: ' + error.message + '\n');
+		    }
+		</script>
+		<script src="resources/sap-ui-core.js"
+		                      id="sap-ui-bootstrap"
+		                      data-sap-ui-libs="sap.m"
+		                      data-sap-ui-theme="sap_mvi" >
+		</script>
+		<script>
+		      // create a mobile App
+		      // it initializes the HTML page for mobile use and provides animated page handling
+		      var app = new sap.m.App("myApp", {initialPage:"page1"}); // page1 should be displayed first
+		      
+		      // create the first page of your application
+		      var page1 = new sap.m.Page("page1", {
+		          title: "SAPUI5 and Phonegap",  
+		          content : [new sap.m.Text({text:"Hello Mobile World!"}),
+		                     new sap.m.Button({   // content is just one Button
+		                         text : "Go to next page",
+		                         tap : function() {
+		                             app.to("page2", "fade");   // when tapped, it triggers drilldown to page 2
+		                         }
+		                         }),
+		                         new sap.m.Button("open_camera_button", {
+		                        	text : "Open camera",
+		                        	tap : function () {
+		                        		 capturePhoto();
+		                        	}
+		                         }),
+		                         new sap.ui.core.HTML({content:'<p id="geolocation">Finding geolocation...</p> <img style="display:none;width:60px;height:60px;" id="smallImage" src="" /><img style="display:none;" id="largeImage" src="" />'}) 
+		          				]}
+		      );
+		      
+		      page1.setBackgroundDesign("List");
+		      
+		      // create the second page of your application
+		      var page2 = new sap.m.Page("page2", {
+		          title: "Page 2",
+		          showNavButton: true,       // page 2 should display a back button
+		          navButtonTap: function(){ 
+		              app.back();            // when tapped, the back button should navigate back up to page 1
+		          },
+		          content : new sap.m.Text({text:"Hello Mobile World!"})
+		      });
+		      
+		      app.addPage(page1).addPage(page2); // add both pages to the App
+		      
+		      app.placeAt("content"); // place the App into the HTML document
+		</script>
+	</head>
+	<body class="sapUiBody" role="application">
+		   <div id="content"></div>   
+    </body>
+</html>
